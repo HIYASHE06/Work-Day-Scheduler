@@ -22,3 +22,7 @@ SO THAT I can manage my time effectively
 ## screenshot of the html
 
 ![Alt text](./Work%20S.png)
+
+## Deployed website
+
+[https://hiyashe06.github.io/Work-Day-Scheduler/](https://hiyashe06.github.io/Work-Day-Scheduler/)
