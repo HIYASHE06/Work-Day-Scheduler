@@ -25,6 +25,11 @@ for (let hour = 9; hour <= 17; hour++) {
     row.append(timeCol, eventCol, saveBtn);
     $(".container").append(row);
 }
-
+// Save the event in local storage when the save button is clicked
+$(".saveBtn").on("click", function() {
+    let hour = $(this).siblings(".hour").data('hour');
+    let event = $(this).siblings(".description").val();
+    localStorage.setItem(hour, event);
+});
 })
     
